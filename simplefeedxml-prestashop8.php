@@ -2,7 +2,7 @@
 include(dirname(__FILE__).'/config/config.inc.php');
 require_once(dirname(__FILE__).'/init.php');
 
-$p=Product::getProducts(1, 0, 0, 'id_product', 'desc', false); // the first number is language id
+$p=Product::getProducts(1, 0, 0, 'id_product', 'desc', false); // the first number is language id 
 $products=Product::getProductsProperties(1, $p); // the first number is language id
 $baseurl = Context::getContext()->shop->getBaseURL();
 
