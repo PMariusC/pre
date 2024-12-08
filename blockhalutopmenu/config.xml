@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>blockhalutopmenu</name>
+    <displayName><![CDATA[Top menu for Halu Theme]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Adds menu to the top of your website. Modified for halu theme]]></description>
+    <author><![CDATA[Modified by Marius Parfene]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>
